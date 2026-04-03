@@ -104,6 +104,9 @@ simulator-tac-docking:
 simulator-tank:
 	${WS} && \
 	ros2 launch dnt_simulator bluerov2_sim.py
+simulator-tac-pipeline:
+	${WS} && \
+	ros2 launch dnt_simulator tac_pipeline.launch.py
 
 sitl:
 	${WS} && \

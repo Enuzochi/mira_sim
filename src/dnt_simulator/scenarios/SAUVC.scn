@@ -8,16 +8,16 @@
 <environment>
 		<ned latitude="56.136459" longitude="-2.706819"/>
 		<ocean>
-			<water density="1031.0" jerlov="0.15"/>
+			<water density="1025.0" jerlov="0.15"/>
 			<waves height="0.0"/>
 			<particles enabled="true"/>
 			<current type="uniform">
-				<velocity xyz="0.0 0.0 0.0"/>
+				<velocity xyz="0.001 0.0 0.0"/>
 			</current>
 			<current type="jet">
 				<center xyz="0.0 0.0 0.0"/>
 				<outlet radius="100.0"/>
-				<velocity xyz="0.0 0.0 0.0"/>
+				<velocity xyz="0.001 0.0 0.0"/>
 			</current>
 		</ocean>
 		<atmosphere>
