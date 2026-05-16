@@ -35,3 +35,7 @@ __pycache__/
 ardupilot/**/*
 ardupilot/*
 
+ardupilot/*.bin
+ardupilot/*.tlog
+ardupilot/*.raw
+.vscode/
