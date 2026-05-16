@@ -32,7 +32,7 @@
 		<arg name="orientation" value="0.0 0.0 0.0"/>
 	</include>
 
-  <include file="$(find vortex_simulator)/objects/tacc_seafloor.scn"/>
+  <!-- <include file="$(find vortex_simulator)/objects/tacc_seafloor.scn"/> -->
 
 <include file="$(find vortex_simulator)/objects/pipe.scn"/>
 <include file="$(find vortex_simulator)/objects/structure.scn"/>
